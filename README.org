@@ -1,0 +1,10 @@
+#+SETUPFILE: ~/.emacs.d/org-templates/level-1.org
+#+HTML_LINK_UP: ../writings/
+#+OPTIONS: toc:2
+#+EXPORT_FILE_NAME: index
+#+TITLE: Advent of Code
+
+My solutions for [[https://adventofcode.com][Advent of Code]].
+
+- Source: https://git.tilde.institute/andinus/aoc
+- GitHub: https://github.com/andinus/aoc
