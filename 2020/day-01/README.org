@@ -1,5 +1,5 @@
-#+SETUPFILE: ~/.emacs.d/org-templates/level-2.org
-#+HTML_LINK_UP: ../../writings/
+#+SETUPFILE: ~/.emacs.d/org-templates/level-3.org
+#+HTML_LINK_UP: ../../../writings/#aoc
 #+OPTIONS: toc:2
 #+EXPORT_FILE_NAME: index
 #+TITLE: Day 01 - Report Repair
