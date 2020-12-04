@@ -8,3 +8,8 @@ My solutions for [[https://adventofcode.com][Advent of Code]].
 
 - Source: https://git.tilde.institute/andinus/aoc
 - GitHub: https://github.com/andinus/aoc
+
+Other Advent of Code solutions:
+
+- https://git.tyil.nl/advent-of-code/
+- https://github.com/codesections/advent-of-raku-2020
