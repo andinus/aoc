@@ -1,5 +1,5 @@
 #+SETUPFILE: ~/.emacs.d/org-templates/level-3.org
-#+HTML_LINK_UP: ../../../writings/#aoc
+#+HTML_LINK_UP: ../../index.html#2020
 #+OPTIONS: toc:1
 #+EXPORT_FILE_NAME: index
 #+TITLE: Day 03 - Toboggan Trajectory

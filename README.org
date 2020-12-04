@@ -1,15 +1,9 @@
 #+SETUPFILE: ~/.emacs.d/org-templates/level-1.org
-#+HTML_LINK_UP: ../writings/
+#+HTML_LINK_UP: ./index.html
 #+OPTIONS: toc:2
-#+EXPORT_FILE_NAME: index
 #+TITLE: Advent of Code
 
 My solutions for [[https://adventofcode.com][Advent of Code]].
 
 - Source: https://git.tilde.institute/andinus/aoc
 - GitHub: https://github.com/andinus/aoc
-
-Other Advent of Code solutions:
-
-- https://git.tyil.nl/advent-of-code/
-- https://github.com/codesections/advent-of-raku-2020
