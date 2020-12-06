@@ -157,6 +157,10 @@ printing =$id= initially.
 The solution was beautiful & clever, it was [[https://github.com/ggoebel][ggoebel]]'s solution in
 [[https://github.com/codesections/advent-of-raku-2020/blob/main/ggoebel/05.raku][advent-of-raku-2020]] repository. I'll share the relevant parts here, it's
 licensed under the *Artistic License 2.0*.
+
+I liked the first part, they're just replacing "B", "R" with 1 & "F",
+"L" with 0. When you convert it from decimal to binary it directly
+translates to the seat ID.
 #+BEGIN_SRC raku
 given $part {
     when 1 {
