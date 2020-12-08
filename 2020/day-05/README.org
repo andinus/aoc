@@ -176,3 +176,6 @@ sub seat_id (Str $code --> Int) {
     return +('0b' ~ $code.trans(<F B R L> => <0 1 1 0>));
 }
 #+END_SRC
+** Update: 2020-12-08
+They've posted about it here:
+https://ergoletterbag.blogspot.com/2020/12/raku-advent-of-code-2020-day-five.html
