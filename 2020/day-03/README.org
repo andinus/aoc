@@ -160,3 +160,37 @@ my @trees = [{ right => 1, down => 1 },
 );
 say "Part 2: ", [*] @trees;
 #+END_SRC
+* Other solution
+I found [[https://old.reddit.com/r/adventofcode/comments/k61rta/2020_day_3_raku/][this solution]] by [[https://old.reddit.com/user/cggoebel][cggoebel]] on reddit. It makes use of infinite
+lazy lists, that way you don't have to check for boundary. I'll paste
+the solution here.
+
+No license was attached to the code in that post. This belongs to
+u/cggoebel.
+#+BEGIN_SRC raku
+use v6.d;
+
+my @input = 'input'.IO.lines;
+my @map;
+
+for @input -> $line {
+    @map.push(($line.comb xx *).flat);
+}
+
+sub detect_collisions (Int $sx, Int $sy) {
+    my $rval = 0;
+    loop (my ($x,$y)=($sx,$sy); $y < @map.elems; $x+=$sx, $y+=$sy) {
+        $rval++ if @map[$y][$x] eq '#';
+    }
+    return $rval
+}
+
+say "Part One: {detect_collisions(3,1)}";
+
+my @collision;
+for 1,1, 3,1, 5,1, 7,1, 1,2 -> $x, $y {
+    @collision.push(detect_collisions($x, $y));
+}
+
+say "Part Two: " ~ [*] @collision;
+#+END_SRC
