@@ -217,7 +217,7 @@ sub MAIN (
 }
 #+END_SRC
 
-FOr part 1 we just loop over =@adapters= & note down the number of
+For part 1 we just loop over =@adapters= & note down the number of
 difference of 3's & 1's. Then we just multiply them to get the solution.
 #+BEGIN_SRC raku
 my Int ($diff_1, $diff_3);
