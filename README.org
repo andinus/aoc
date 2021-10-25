@@ -1,7 +1,6 @@
-#+SETUPFILE: ~/.emacs.d/org-templates/level-1.org
-#+HTML_LINK_UP: ./index.html
-#+OPTIONS: toc:2
-#+TITLE: Advent of Code
+#+title: Advent of Code
+#+html_link_up: ./index.html
+#+setupfile: ~/.emacs.d/org-templates/level-1.org
 
 My solutions for [[https://adventofcode.com][Advent of Code]].
 
